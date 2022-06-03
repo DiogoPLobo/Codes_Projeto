@@ -161,3 +161,51 @@ label{
 .submit{
     margin-top: 1rem;
 }
+
+.msg-resposta{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 2.5rem;
+    padding: 1rem;
+    color: white;
+    align-self: flex-end;
+}
+
+
+.msg-titulo-invertido{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.bolha-resposta{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    background-color: #482861;
+    border-color: #D9AADD;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.entrada-msg{
+    width: 80%;
+    margin-right: 1%;
+    border: #482861 1px solid;
+}
+
+.botao-enviar{
+    width: 20%;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #482861;
+}
+
+input[type="text"]
+{
+    padding: 0.4rem;
+    font-size: 18px;
+}
