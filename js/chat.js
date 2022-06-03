@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     main = document.querySelector('.msg-panel');
     botao = document.querySelector('.botao-enviar'); 
-    adi = document.querySelector('input[placeholder="Digite sua mensagem"]') 
+    adi = document.querySelector('input[type="text"]') 
 
     
     t = 5
