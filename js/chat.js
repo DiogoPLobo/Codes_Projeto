@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
         p.style.color = '#FFFFFF'
 
         // apendando os filhos
-        div.appendChild(h2)
+        //div.appendChild(h2)
         div.appendChild(h3)
 
         div2.appendChild(p)
